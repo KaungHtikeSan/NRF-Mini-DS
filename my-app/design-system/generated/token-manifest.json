@@ -1,0 +1,222 @@
+{
+  "collection": "Variable collection",
+  "mode": "Mode 1",
+  "colors": [
+    {
+      "name": "Text/Primary",
+      "token": "text-primary",
+      "type": "color",
+      "value": "#010101"
+    },
+    {
+      "name": "Text/Secondary",
+      "token": "text-secondary",
+      "type": "color",
+      "value": "#656565"
+    },
+    {
+      "name": "Text/Inverse Primary",
+      "token": "text-inverse-primary",
+      "type": "color",
+      "value": "#f5f5f5"
+    },
+    {
+      "name": "Text/Inverse Secondary",
+      "token": "text-inverse-secondary",
+      "type": "color",
+      "value": "#bbbbbb"
+    },
+    {
+      "name": "Background/Primary",
+      "token": "background-primary",
+      "type": "color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "Interactive/Primary",
+      "token": "interactive-primary",
+      "type": "color",
+      "value": "#010101"
+    },
+    {
+      "name": "Interactive/Disabled",
+      "token": "interactive-disabled",
+      "type": "color",
+      "value": "#d7d7d7"
+    },
+    {
+      "name": "Interactive/Highlight",
+      "token": "interactive-highlight",
+      "type": "color",
+      "value": "#0002dd"
+    },
+    {
+      "name": "Border/Stroke",
+      "token": "border-stroke",
+      "type": "color",
+      "value": "#dbdbdb"
+    },
+    {
+      "name": "State/Error",
+      "token": "state-error",
+      "type": "color",
+      "value": "#d70412"
+    },
+    {
+      "name": "Text/Placeholder",
+      "token": "text-placeholder",
+      "type": "color",
+      "value": "#c9c9c9"
+    },
+    {
+      "name": "Background/Subtle",
+      "token": "background-subtle",
+      "type": "color",
+      "value": "#f8f8f8"
+    },
+    {
+      "name": "Border/Seprator",
+      "token": "border-seprator",
+      "type": "color",
+      "value": "#f2f2f2"
+    }
+  ],
+  "typography": [
+    {
+      "name": "Heading",
+      "token": "heading",
+      "type": "text",
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "700",
+      "fontSize": "24px",
+      "lineHeight": "32px",
+      "letterSpacing": "-2%"
+    },
+    {
+      "name": "Mini",
+      "token": "mini",
+      "type": "text",
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "400",
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "letterSpacing": "-1%"
+    },
+    {
+      "name": "Sec Action",
+      "token": "sec-action",
+      "type": "text",
+      "fontFamily": "Inconsolata",
+      "fontWeight": "400",
+      "fontSize": "14px",
+      "lineHeight": "24px",
+      "letterSpacing": "2%"
+    },
+    {
+      "name": "Body 1/Md",
+      "token": "body-1-md",
+      "type": "text",
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "500",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "letterSpacing": "-1%"
+    },
+    {
+      "name": "Body 1/Rg",
+      "token": "body-1-rg",
+      "type": "text",
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "letterSpacing": "-1%"
+    },
+    {
+      "name": "Body 2/Md",
+      "token": "body-2-md",
+      "type": "text",
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "500",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.5%"
+    },
+    {
+      "name": "Body 2/Rg",
+      "token": "body-2-rg",
+      "type": "text",
+      "fontFamily": "Helvetica Neue",
+      "fontWeight": "400",
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "letterSpacing": "-0.5%"
+    }
+  ],
+  "spacing": [
+    {
+      "token": "spacing-1",
+      "value": "4px"
+    },
+    {
+      "token": "spacing-2",
+      "value": "8px"
+    },
+    {
+      "token": "spacing-3",
+      "value": "12px"
+    },
+    {
+      "token": "spacing-4",
+      "value": "16px"
+    },
+    {
+      "token": "spacing-5",
+      "value": "20px"
+    },
+    {
+      "token": "spacing-6",
+      "value": "24px"
+    },
+    {
+      "token": "spacing-7",
+      "value": "28px"
+    },
+    {
+      "token": "spacing-8",
+      "value": "32px"
+    },
+    {
+      "token": "spacing-9",
+      "value": "36px"
+    },
+    {
+      "token": "spacing-10",
+      "value": "40px"
+    },
+    {
+      "token": "spacing-11",
+      "value": "44px"
+    },
+    {
+      "token": "spacing-12",
+      "value": "48px"
+    },
+    {
+      "token": "spacing-13",
+      "value": "52px"
+    },
+    {
+      "token": "spacing-14",
+      "value": "56px"
+    },
+    {
+      "token": "spacing-15",
+      "value": "60px"
+    },
+    {
+      "token": "spacing-16",
+      "value": "64px"
+    }
+  ]
+}

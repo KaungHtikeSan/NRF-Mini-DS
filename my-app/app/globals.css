@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "../design-system/generated/web/tokens.css";
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--color-background-primary); color: var(--color-text-primary); }
+button { font: inherit; }
+.catalog-shell { width: min(100% - var(--spacing-8), 1120px); margin: 0 auto; padding: var(--spacing-12) 0 var(--spacing-16); }
+.catalog-header { display: grid; gap: var(--spacing-3); padding-bottom: var(--spacing-10); border-bottom: 1px solid var(--color-border-stroke); }
+.eyebrow { margin: 0; color: var(--color-text-secondary); font-family: var(--typography-sec-action-font-family); font-size: var(--typography-sec-action-font-size); font-weight: var(--typography-sec-action-font-weight); letter-spacing: var(--typography-sec-action-letter-spacing); line-height: var(--typography-sec-action-line-height); text-transform: uppercase; }
+h1, h2, p { margin: 0; }
+.intro { color: var(--color-text-secondary); max-width: 560px; }
+.source-status { display: flex; flex-wrap: wrap; gap: var(--spacing-2); align-items: center; margin-top: var(--spacing-2); color: var(--color-text-secondary); }
+.source-status strong { color: var(--color-text-primary); font-weight: var(--typography-body-2-md-font-weight); }
+.download-area { position: relative; margin-top: var(--spacing-2); }
+.download-trigger, .download-file { display: inline-block; padding: var(--spacing-3) var(--spacing-4); color: var(--color-text-inverse-primary); background: var(--color-interactive-primary); border: 1px solid var(--color-interactive-primary); cursor: pointer; text-decoration: none; }
+.download-trigger:hover, .download-trigger:focus-visible, .download-file:hover, .download-file:focus-visible { color: var(--color-text-inverse-primary); background: var(--color-interactive-highlight); border-color: var(--color-interactive-highlight); outline: none; }
+.download-picker { display: grid; gap: var(--spacing-3); width: min(100%, 420px); margin-top: var(--spacing-3); padding: var(--spacing-4); background: var(--color-background-subtle); border: 1px solid var(--color-border-stroke); }
+.platform-options { display: grid; gap: var(--spacing-2); }
+.platform-option { display: flex; gap: var(--spacing-2); align-items: center; color: var(--color-text-primary); }
+.platform-option input { accent-color: var(--color-interactive-primary); }
+.download-note { color: var(--color-text-secondary); }
+section { padding: var(--spacing-10) 0; border-bottom: 1px solid var(--color-border-separator); }
+.section-heading { display: grid; gap: var(--spacing-2); margin-bottom: var(--spacing-6); }
+.section-heading h2 { color: var(--color-text-primary); }
+.color-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(216px, 1fr)); gap: var(--spacing-3); }
+.color-card { display: grid; grid-template-columns: var(--spacing-12) 1fr; gap: var(--spacing-3); padding: var(--spacing-3); text-align: left; color: var(--color-text-primary); background: var(--color-background-primary); border: 1px solid var(--color-border-stroke); cursor: pointer; }
+.color-card:hover, .color-card:focus-visible { border-color: var(--color-interactive-highlight); outline: none; }
+.swatch { width: var(--spacing-12); height: var(--spacing-12); border: 1px solid var(--color-border-stroke); }
+.token-detail, .type-meta { display: grid; gap: var(--spacing-1); align-content: center; }
+.token-detail span, .type-meta span, .interaction-note { color: var(--color-text-secondary); }
+.figma-name { color: var(--color-text-placeholder) !important; }
+.interaction-note { margin-top: var(--spacing-4); }
+.type-table { display: grid; border-top: 1px solid var(--color-border-stroke); }
+.type-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 0.7fr); gap: var(--spacing-6); padding: var(--spacing-5) 0; border-bottom: 1px solid var(--color-border-separator); }
+.type-sample { align-self: center; color: var(--color-text-primary); }
+.spacing-list { display: grid; gap: var(--spacing-2); }
+.spacing-row { display: grid; grid-template-columns: var(--spacing-16) minmax(var(--spacing-1), 1fr) var(--spacing-12); gap: var(--spacing-3); align-items: center; color: var(--color-text-secondary); }
+.space-bar { display: block; min-width: var(--spacing-1); height: var(--spacing-2); background: var(--color-interactive-primary); }
+.catalog-footer { padding-top: var(--spacing-6); color: var(--color-text-secondary); }
+@media (max-width: 640px) { .catalog-shell { width: min(100% - var(--spacing-6), 1120px); padding-top: var(--spacing-8); } .type-row { grid-template-columns: 1fr; gap: var(--spacing-3); } }

@@ -1,0 +1,21 @@
+{
+  "baseUnit": "4px",
+  "tokens": [
+    { "token": "spacing-1", "value": "4px" },
+    { "token": "spacing-2", "value": "8px" },
+    { "token": "spacing-3", "value": "12px" },
+    { "token": "spacing-4", "value": "16px" },
+    { "token": "spacing-5", "value": "20px" },
+    { "token": "spacing-6", "value": "24px" },
+    { "token": "spacing-7", "value": "28px" },
+    { "token": "spacing-8", "value": "32px" },
+    { "token": "spacing-9", "value": "36px" },
+    { "token": "spacing-10", "value": "40px" },
+    { "token": "spacing-11", "value": "44px" },
+    { "token": "spacing-12", "value": "48px" },
+    { "token": "spacing-13", "value": "52px" },
+    { "token": "spacing-14", "value": "56px" },
+    { "token": "spacing-15", "value": "60px" },
+    { "token": "spacing-16", "value": "64px" }
+  ]
+}

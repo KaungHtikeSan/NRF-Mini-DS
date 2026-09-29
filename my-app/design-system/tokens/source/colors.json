@@ -1,0 +1,33 @@
+{
+  "collections": {
+    "Variable collection": {
+      "id": "VariableCollectionId:10:2168",
+      "modes": [
+        {
+          "id": "10:0",
+          "name": "Mode 1"
+        }
+      ],
+      "variables": {
+        "colors": [
+          { "name": "Text/Primary", "token": "text-primary", "type": "color", "value": "#010101" },
+          { "name": "Text/Secondary", "token": "text-secondary", "type": "color", "value": "#656565" },
+          { "name": "Text/Inverse Primary", "token": "text-inverse-primary", "type": "color", "value": "#f5f5f5" },
+          { "name": "Text/Inverse Secondary", "token": "text-inverse-secondary", "type": "color", "value": "#bbbbbb" },
+          { "name": "Background/Primary", "token": "background-primary", "type": "color", "value": "#ffffff" },
+          { "name": "Interactive/Primary", "token": "interactive-primary", "type": "color", "value": "#010101" },
+          { "name": "Interactive/Disabled", "token": "interactive-disabled", "type": "color", "value": "#d7d7d7" },
+          { "name": "Interactive/Highlight", "token": "interactive-highlight", "type": "color", "value": "#0002dd" },
+          { "name": "Border/Stroke", "token": "border-stroke", "type": "color", "value": "#dbdbdb" },
+          { "name": "State/Error", "token": "state-error", "type": "color", "value": "#d70412" },
+          { "name": "Text/Placeholder", "token": "text-placeholder", "type": "color", "value": "#c9c9c9" },
+          { "name": "Background/Subtle", "token": "background-subtle", "type": "color", "value": "#f8f8f8" },
+          { "name": "Border/Seprator", "token": "border-seprator", "type": "color", "value": "#f2f2f2" }
+        ],
+        "numbers": [],
+        "strings": [],
+        "booleans": []
+      }
+    }
+  }
+}
