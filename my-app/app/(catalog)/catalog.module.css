@@ -1,0 +1,32 @@
+.catalogShell { width: min(100% - var(--spacing-8), 1120px); margin: 0 auto; padding: var(--spacing-12) 0 var(--spacing-16); }
+.catalogHeader { display: grid; gap: var(--spacing-3); padding-bottom: var(--spacing-10); border-bottom: 1px solid var(--color-border-stroke); }
+.eyebrow { margin: 0; color: var(--color-text-secondary); font-family: var(--typography-sec-action-font-family); font-size: var(--typography-sec-action-font-size); font-weight: var(--typography-sec-action-font-weight); letter-spacing: var(--typography-sec-action-letter-spacing); line-height: var(--typography-sec-action-line-height); text-transform: uppercase; }
+.intro { color: var(--color-text-secondary); max-width: 560px; }
+.sourceStatus { display: flex; flex-wrap: wrap; gap: var(--spacing-2); align-items: center; margin-top: var(--spacing-2); color: var(--color-text-secondary); }
+.sourceStatus strong { color: var(--color-text-primary); font-weight: var(--typography-body-2-md-font-weight); }
+.downloadArea { position: relative; margin-top: var(--spacing-2); }
+.downloadTrigger, .downloadFile { display: inline-block; padding: var(--spacing-3) var(--spacing-4); color: var(--color-text-inverse-primary); background: var(--color-interactive-primary); border: 1px solid var(--color-interactive-primary); cursor: pointer; text-decoration: none; }
+.downloadTrigger:hover, .downloadTrigger:focus-visible, .downloadFile:hover, .downloadFile:focus-visible { color: var(--color-text-inverse-primary); background: var(--color-interactive-highlight); border-color: var(--color-interactive-highlight); outline: none; }
+.downloadPicker { display: grid; gap: var(--spacing-3); width: min(100%, 420px); margin-top: var(--spacing-3); padding: var(--spacing-4); background: var(--color-background-subtle); border: 1px solid var(--color-border-stroke); }
+.platformOptions { display: grid; gap: var(--spacing-2); }
+.platformOption { display: flex; gap: var(--spacing-2); align-items: center; color: var(--color-text-primary); }
+.platformOption input { accent-color: var(--color-interactive-primary); }
+.downloadNote, .tokenDetail span, .typeMeta span, .interactionNote { color: var(--color-text-secondary); }
+.catalogSection { padding: var(--spacing-10) 0; border-bottom: 1px solid var(--color-border-separator); }
+.sectionHeading { display: grid; gap: var(--spacing-2); margin-bottom: var(--spacing-6); }
+.sectionHeading h2 { color: var(--color-text-primary); }
+.colorGrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(216px, 1fr)); gap: var(--spacing-3); }
+.colorCard { display: grid; grid-template-columns: var(--spacing-12) 1fr; gap: var(--spacing-3); padding: var(--spacing-3); text-align: left; color: var(--color-text-primary); background: var(--color-background-primary); border: 1px solid var(--color-border-stroke); cursor: pointer; }
+.colorCard:hover, .colorCard:focus-visible { border-color: var(--color-interactive-highlight); outline: none; }
+.swatch { width: var(--spacing-12); height: var(--spacing-12); border: 1px solid var(--color-border-stroke); }
+.tokenDetail, .typeMeta { display: grid; gap: var(--spacing-1); align-content: center; }
+.figmaName { color: var(--color-text-placeholder) !important; }
+.interactionNote { margin-top: var(--spacing-4); }
+.typeTable { display: grid; border-top: 1px solid var(--color-border-stroke); }
+.typeRow { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 0.7fr); gap: var(--spacing-6); padding: var(--spacing-5) 0; border-bottom: 1px solid var(--color-border-separator); }
+.typeSample { align-self: center; color: var(--color-text-primary); }
+.spacingList { display: grid; gap: var(--spacing-2); }
+.spacingRow { display: grid; grid-template-columns: var(--spacing-16) minmax(var(--spacing-1), 1fr) var(--spacing-12); gap: var(--spacing-3); align-items: center; color: var(--color-text-secondary); }
+.spaceBar { display: block; min-width: var(--spacing-1); height: var(--spacing-2); background: var(--color-interactive-primary); }
+.catalogFooter { padding-top: var(--spacing-6); color: var(--color-text-secondary); }
+@media (max-width: 640px) { .catalogShell { width: min(100% - var(--spacing-6), 1120px); padding-top: var(--spacing-8); } .typeRow { grid-template-columns: 1fr; gap: var(--spacing-3); } }
